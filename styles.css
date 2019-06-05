@@ -15,7 +15,7 @@ img:hover{
 body {
 margin: 40px;
 padding: 30px;
-background-image: url("./assets/background_1.jpeg") !important;
+background-image: url("./assets/background_1.jpeg");
 /* background-image: url("./assets/background_1.jpeg"); */
 /* background-color: #cccccc; /* Used if the image is unavailable */ */
 height: 500px; /* You must set a specified height */
