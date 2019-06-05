@@ -1,6 +1,51 @@
+
 img {
   height: 300px;
-  width: 250px;
+  width: 200px;
   object-fit:cover;
   border-radius: 100px;
+  border: solid;
+  border-color:#4A72A2;
+
+}
+img:hover{
+  transform: scale(1.1,1.1);
+  transition:transform .3s;
+}
+body {
+margin: 40px;
+padding: 30px;
+background-image: url("./assets/background_1.jpeg") !important;
+/* background-image: url("./assets/background_1.jpeg"); */
+/* background-color: #cccccc; /* Used if the image is unavailable */ */
+height: 500px; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the  background image to cover the entire container */
+}
+p {
+  font-size: 20px;
+  font-family: 'Ranga', cursive;
+  color:#C8C3FF;
+  text-align: center;
+  text-decoration:none;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Ranga', cursive;
+  color:#C8C3FF;
+  text-align: center;
+  text-decoration:none;
+  justify-content: flex-start;
+  text-shadow: 3px 2px #091980;
+  text-decoration: overline underline;
+}
+@media screen and (max-width:1080px min-width:300px){
+ img {
+   border-color: #362F80;
+ }
+ image-container{
+   height:auto;
+   width:auto;
+ }
 }
